@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <!-- Primary Meta Tags -->
+    <title>LaunchFlow Pro – Landing Page Chuyển Đổi Cao Cho Sản Phẩm Công Nghệ & Khóa Học</title>
+    <meta name="title" content="LaunchFlow Pro – Landing Page Chuyển Đổi Cao Cho Sản Phẩm Công Nghệ & Khóa Học" />
+    <meta name="description" content="Giao diện giới thiệu phần mềm SaaS, app di động và khóa học trực tuyến với tỷ lệ giữ chân trên 70%. Bảng so sánh giá trực quan, feedback carousel, đồng bộ Zalo trong 3 giây và tặng trọn gói domain + server 1 năm." />
+    <meta name="keywords" content="LaunchFlow Pro, landing page saas, landing page khoa hoc, landing page san pham so, thiet ke landing page cong nghe, ban giao full source code" />
+    <meta name="author" content="Paul Labs • Đức Cảnh" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#08090C" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://launchflow.paullabs.dev/" />
+    <meta property="og:title" content="LaunchFlow Pro – Landing Page Chuyển Đổi Cao Cho Sản Phẩm Công Nghệ & Khóa Học" />
+    <meta property="og:description" content="Giao diện giới thiệu phần mềm SaaS, app di động và khóa học trực tuyến với tỷ lệ giữ chân trên 70%." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="LaunchFlow Pro – Landing Page Chuyển Đổi Cao" />
+    <meta property="twitter:description" content="Tối ưu tỷ lệ chuyển đổi cho SaaS, app di động & khóa học. Bàn giao 24-48 giờ." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>" />
+
+    <!-- Google Fonts with Vietnamese Support -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "LaunchFlow Pro",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "VND"
+      },
+      "description": "Landing Page Chuyển Đổi Cao Cho Sản Phẩm Công Nghệ, SaaS & Khóa Học Trực Tuyến."
+    }
+    </script>
+
+    <!-- Theme Initializer Script -->
+    <script>
+      (function() {
+        try {
+          const params = new URLSearchParams(window.location.search);
+          const urlTheme = params.get('theme');
+          const savedTheme = localStorage.getItem('lf_theme');
+          if (urlTheme === 'light' || (!urlTheme && savedTheme === 'light')) {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+        } catch(e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#08090C] text-slate-100 dark:bg-[#08090C] dark:text-slate-100 antialiased selection:bg-indigo-500 selection:text-white transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
